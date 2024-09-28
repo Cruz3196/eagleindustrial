@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const location = useLocation();  //this is going to set the location of the path 
 
     const handleToggle = () => {
         setMenuOpen(!menuOpen);
@@ -20,16 +22,16 @@ const Navbar = () => {
         <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
             <ul className='nav-links'>
                 <li className='nav-item'>
-                    <a href='/About'>About</a>
+                    <a href='/About' className={location.pathname === '/About' ? 'active' : '' }>About</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/Services'>Services</a>
+                    <a href='/Services' className={location.pathname === '/Services' ? 'active' : '' }>Services</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/Safety'>Safety</a>
+                    <a href='/Safety' className={location.pathname === '/Safety' ? 'active' : '' }>Safety</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/Contact'>Contact</a>
+                    <a href='/Contact' className={location.pathname === '/Contact' ? 'active' : '' }>Contact</a>
                 </li>
             </ul>
         </div>

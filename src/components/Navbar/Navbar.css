@@ -33,6 +33,21 @@
     position: relative;
 }
 
+/* For the active navlink  */
+.nav-links li a.active{
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links li a.active::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: white;
+}
+
 /* Underline for the navbar links */
 .nav-links li a:hover::after,
 .nav-links li a.active::after {
