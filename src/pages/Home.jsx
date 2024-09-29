@@ -1,10 +1,12 @@
 import React from 'react';
-import { Hero } from '../components';
+import { Hero, About } from '../components';
 
 const Home = () => {
   return (
-    
-    <Hero/>
+    <>
+      <Hero/>
+      <About/>
+    </>
   )
 }
 
