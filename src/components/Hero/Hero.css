@@ -1,0 +1,31 @@
+/* Hero Image */
+.hero{
+    background-image: url(/src//Assets/SunSetHero\ .jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-dark gradient */
+    z-index: 1;
+}
+
+/* Hero Text */
+.hero-text{
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 2;
+}
