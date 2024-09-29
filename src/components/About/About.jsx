@@ -1,4 +1,5 @@
 import React from 'react';
+import welderImage from "../../Assets/WelderAbout.jpg"
 import './About.css';
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
                 <button className="cta-button">OUR COMMITMENT TO SAFETY</button>
             </div>
             <div className='image-content'>
-                <img src='src/Assets/WelderAbout.jpg'/>
+                <img src={welderImage} alt='Welder About'/>
             </div>
         </div>
     </section>

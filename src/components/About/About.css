@@ -42,3 +42,22 @@ p {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.cta-button:hover{
+    background-color: #2563eb;
+}
+.image-content img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px){
+    .about-content{
+        flex-direction: row;
+        align-items: center;
+    }
+    .image-content{
+        margin-top: 0;
+    }
+}
