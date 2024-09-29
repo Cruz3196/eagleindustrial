@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='navbar-left'>
-                <a href='/' className='brand'>
+                <a href='/' className={`brand ${menuOpen ? 'open' : ''}`}>
                     Eagle Industrial 
                 </a>
             </div>

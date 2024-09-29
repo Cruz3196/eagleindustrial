@@ -18,6 +18,14 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
+    z-index: 20;
+    transition: color 0.3s ease-in-out;
+}
+
+.brand.open{
+    color: black;
+    
 }
 
 .nav-links {
@@ -137,7 +145,6 @@
     .nav-links {
         display: none;
     }
-
     #hamburger {
       display: flex; /* Show hamburger on small screens */
     }
