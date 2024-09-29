@@ -1,8 +1,11 @@
 .about-section{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 4rem 2rem;
     background-color: #f3f4f6;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-content{
@@ -10,30 +13,34 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .about-text{
     flex: 1;
     padding-right:  2rem;
+    margin-bottom: 2rem;
 }
 
 .image-content{
     flex: 1;
-    margin-top: 2rem;
 }
-h2 {
+.about-text h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
 }
-p {
+.about-text p {
     margin-bottom: 1rem;
     line-height: 1.5;
+    font-size: 1.125rem;
+    color: #374151;
 }
 
 .cta-button{
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem;
     background-color: #3b82f6;
     color: white;
     border: none;
@@ -46,9 +53,10 @@ p {
     background-color: #2563eb;
 }
 .image-content img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
+    height: 90vh;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 0.5;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,7 +65,7 @@ p {
         flex-direction: row;
         align-items: center;
     }
-    .image-content{
-        margin-top: 0;
+    .about-text{
+        padding-right: 3rem;
     }
 }
