@@ -1,6 +1,7 @@
 .BannerTwo-section{
     background-image: url(../../../Assets//BannerTwo.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: middle;
+    height: 60vh;
     width: 100%;
 }
