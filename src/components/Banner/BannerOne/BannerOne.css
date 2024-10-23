@@ -1,9 +1,21 @@
 .BannerOne-Section{
     background-image: url("../../../Assets//WaterTank.jpg");
-    background-size: 88% auto;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 70vh;
+    height: 85vh;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.BannerOne-Section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.312); /* Semi-dark gradient */
+    z-index: 1;
 }
