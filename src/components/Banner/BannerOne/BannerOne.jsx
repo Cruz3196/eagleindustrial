@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./BannerOne.css";
 
 const BannerOne = () => {
   return (
-    <div>BannerOne</div>
+    <section className='BannerOne-Section'>
+      <div className='BannerOne-Content'>
+
+      </div>
+    </section>
   )
 }
 
