@@ -1,6 +1,9 @@
 .BannerOne-Section{
     background-image: url("../../../Assets//WaterTank.jpg");
-    background-size: cover;
-    height: 100vh;
+    background-size: 88% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
     width: 100%;
+    display: flex;
 }
