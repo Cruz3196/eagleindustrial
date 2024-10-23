@@ -16,7 +16,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.312); /* Semi-dark gradient */
+    background: rgba(0, 0, 0, 0.5); /* Semi-dark gradient */
     z-index: 1;
 }
 .BannerOne-Content{
@@ -28,4 +28,11 @@
 }
 .BannerOne-Header{
     font-size: 3.0rem;
+}
+.BannerOne-Content p{
+    font-size: 1.8rem;
+    max-width: 1200px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+    line-height: 1.6;
 }
