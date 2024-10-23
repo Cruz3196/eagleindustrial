@@ -19,3 +19,9 @@
     background: rgba(0, 0, 0, 0.312); /* Semi-dark gradient */
     z-index: 1;
 }
+.BannerOne-Content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
