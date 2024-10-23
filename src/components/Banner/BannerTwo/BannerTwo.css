@@ -1,0 +1,6 @@
+.BannerTwo-section{
+    background-image: url(../../../Assets//BannerTwo.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
