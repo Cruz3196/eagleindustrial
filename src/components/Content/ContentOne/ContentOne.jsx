@@ -10,7 +10,7 @@ const ContentOne = () => {
             </div>
             <div className='ContentOne-Info'>
                 <p>
-                Our work begins with our people. At Evans Industrial, the safety of our clients and employees is our top priority and at the core of our business.
+                Our work begins with our people. At Eagle Industrial, the safety of our clients and employees is our top priority and at the core of our business.
                 </p>
                 <p>
                 We adhere to extreme safety measures when controlling hazardous project conditions to ensure a safe and injury-free environment for our clients and employees. 
