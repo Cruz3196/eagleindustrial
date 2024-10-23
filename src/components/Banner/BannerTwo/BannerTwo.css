@@ -4,4 +4,19 @@
     background-position: center center;
     height: 60vh;
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.BannerTwo-Header{
+    text-align: left;
+    color: white;
+}
+.BannerTwo-Header h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
 }
