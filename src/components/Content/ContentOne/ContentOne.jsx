@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './ContentOne.css';
 
 const ContentOne = () => {
   return (
@@ -7,7 +8,7 @@ const ContentOne = () => {
             <div className='ContentOne-Header'>
                 <h1>Our Commitment to Safety.</h1>
             </div>
-            <div className='ContentOne-Content'>
+            <div className='ContentOne-Info'>
                 <p>
                 Our work begins with our people. At Evans Industrial, the safety of our clients and employees is our top priority and at the core of our business.
                 </p>
