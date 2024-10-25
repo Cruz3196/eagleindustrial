@@ -36,3 +36,20 @@
     text-align: center;
     line-height: 1.6;
 }
+@media (max-width: 800px){
+    .BannerOne-Content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .BannerOne-Header{
+        font-size: 2.0rem;
+    }
+    .BannerOne-Content p{
+        font-size: 1.3rem;
+        max-width: 600px;
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        line-height: 1.6;
+    }
+}
