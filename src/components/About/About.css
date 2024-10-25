@@ -82,10 +82,14 @@
         align-items: center;
         height: 160vh;
     }
+    .about-content{
+        order: 2;
+    }
     .about-text{
         padding-right: 3rem;
     }
     .image-content img{
         height: 60vh;
+        order: 1;
     }
 }
