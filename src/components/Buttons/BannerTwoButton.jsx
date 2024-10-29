@@ -4,7 +4,7 @@ import './BannerTwoButton.css';
 const BannerTwoButton = () => {
   return (
     <button className='BannerTwoButton'>
-        Markets We Specialize In
+        MARKETS WE SPECIALIZE IN
     </button>
   )
 }

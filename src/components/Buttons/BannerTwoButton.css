@@ -1,8 +1,7 @@
 .BannerTwoButton{
-    display: inline-block;
+    margin-left: 65px;
     padding: 1.5rem 2rem;
     background-color: #3b82f6;
-    margin-top: 20px;
     color: white;
     border: none;
     border-radius: 0.25rem;
