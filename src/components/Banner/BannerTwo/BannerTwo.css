@@ -22,3 +22,35 @@
     margin-bottom: 6rem;
     text-transform: capitalize;
 }
+
+@media (max-width: 768px){
+    .BannerTwo-Header{
+        text-align: left;
+        color: white;
+        height: 50vh;
+        width: 100%;
+    }
+    .BannerTwo-Header h1{
+        font-size: 2.0rem;
+        font-weight: bold;
+        padding-left: 4rem;
+        margin-bottom: 6rem;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 600px){
+    .BannerTwo-Header{
+        text-align: left;
+        color: white;
+        height: 50vh;
+        width: 100%;
+    }
+    .BannerTwo-Header h1{
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding-left: 4rem;
+        margin-bottom: 6rem;
+        text-transform: capitalize;
+    }
+}
