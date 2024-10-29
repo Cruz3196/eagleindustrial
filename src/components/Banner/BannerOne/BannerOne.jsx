@@ -6,7 +6,7 @@ const BannerOne = () => {
     <section className='BannerOne-Section'>
       <div className='BannerOne-Content'>
           <div className='BannerOne-Header'>
-            <h1>Experience and Expertise are Clear in <br/>Our Services.</h1>
+            <h2>Experience and Expertise are Clear in <br/>Our Services.</h2> 
           </div>
           <div className='BannerOne-Content'>
             <p>We self-perform ASME code repairs and retrofits, civil work, foundation work, trenching, structural bracing, excavation, installation of new pipes, rigging, and heavy equipment setting. </p>
