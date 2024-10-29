@@ -16,8 +16,29 @@
 }
 .ContentOne-Info p {
     font-size: 1.5rem;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto 1.5rem auto;
     text-align: center;
     line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .ContentOne-Header{
+        font-size: 1.8rem;
+    }
+    .ContentOne-Info p{
+        font-size: 1.1rem;
+        line-height: 1.8;
+        max-width: 500px;
+    }
+}
+@media (max-width: 600px) {
+    .ContentOne-Header{
+        font-size: 1.5rem;
+    }
+    .ContentOne-Info p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+        max-width: 500px;
+    }
 }
