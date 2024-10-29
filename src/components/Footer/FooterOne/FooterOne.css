@@ -3,3 +3,7 @@
     height: 40vh;
     width: 100%;
 }
+.FooterOne-Logo h2 {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Optional: remove padding if necessary */
+}
