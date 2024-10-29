@@ -37,7 +37,7 @@
     line-height: 1.6;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 768px){
     .BannerOne-Content{
         text-align: center;
         justify-content: center;
@@ -54,7 +54,7 @@
         line-height: 1.6;
     }
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
     .BannerOne-Content{
         text-align: center;
         justify-content: center;
