@@ -1,0 +1,15 @@
+.ButtonOne{
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    background-color: #3b82f6;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.ButtonOne:hover{
+    background-color: #0476D0;
+}
