@@ -1,9 +1,36 @@
-.FooterOne-Section{
+.FooterOne-Section {
     background-color: #0476D0;
     height: 40vh;
     width: 100%;
 }
-.FooterOne-Logo h2 {
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Optional: remove padding if necessary */
+
+.FooterOne-Content {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 40px;
+    width: 100%;
+    height: 100%;
 }
+
+.FooterOne-Logo h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#borderline {
+    border: 0.1px solid white;
+    width: 35%;
+    margin: 20px 0;
+}
+
+.FooterTwo-Content h2 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0;       
+}    
