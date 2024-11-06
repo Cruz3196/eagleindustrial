@@ -14,9 +14,9 @@ const FooterOne = () => {
               <h2>
                 Quality and Safety, Engineered.
               </h2>
+              <FooterOneButton/>
             </div>
         </div>
-      <FooterOneButton/>
     </section>
   )
 }
