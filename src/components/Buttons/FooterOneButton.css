@@ -18,3 +18,21 @@
     background-color: white;
     color: #3b82f6;
 }
+@media (max-width: 768px){
+    .FooterOneButton{
+        padding: 1.5rem 2rem;
+        color: white;
+        border: 2px solid white;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 35%;
+        height: 10%;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: -140px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.0rem;
+    }
+}

@@ -9,14 +9,14 @@ const FooterOne = () => {
         <div className='FooterOne-Logo'>
           <h2>Eagle Industrial</h2>
         </div>
-        <div id='borderline'></div>
-          <div className='FooterTwo-Content'>
-            <h2>
-              Quality and Safety, Engineered.
-            </h2>
-          </div>
-          <FooterOneButton/>
-      </div>
+          <div id='borderline'></div>
+            <div className='FooterTwo-Content'>
+              <h2>
+                Quality and Safety, Engineered.
+              </h2>
+            </div>
+        </div>
+      <FooterOneButton/>
     </section>
   )
 }
