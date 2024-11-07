@@ -8,13 +8,16 @@ const FooterOne = () => {
       <div className='FooterOne-Container'>
         <div className='FooterOne-Logo'>
           <h2>Eagle Industrial</h2>
-          <div id='borderline'></div>
+        </div>
+        <div id='borderline'>
+        </div>
+        <div className='FooterOne-Content'>
             <h2>
               Quality and Safety, Engineered.
             </h2>
             <FooterOneButton/>
-          </div>
         </div>
+      </div>
     </section>
   )
 }

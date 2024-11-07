@@ -2,6 +2,10 @@
     background-color: #0476D0;
     height: 50vh;
     width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden;
 }
 
 .FooterOne-Container{
@@ -11,6 +15,7 @@
 }
 
 .FooterOne-Logo h2 {
+    margin-top: 50px;
     font-size: 2.5rem;
     font-weight: bold;
     color: white;
@@ -20,8 +25,9 @@
 
 #borderline {
     border: 0.1px solid white;
-    width: 35%;
+    width: 80%;
     margin: 20px 0;
+    margin-top: 50px;
 }
 
 .FooterOne-Content h2 {
@@ -30,7 +36,8 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 20px 0;       
+    margin: 10px 0;    
+    margin-top:60px;
 }    
 
 /* Responsive FooterOne  */
