@@ -1,15 +1,17 @@
 .FooterOneButton{
     display: inline-block;
+    position: relative;
+    left:1000px;
+    bottom: 120px;
     padding: 1.5rem 2rem;
-    background-color: #3b82f6;
     margin-top: 20px;
     color: white;
-    border: none;
-    border-radius: 0.25rem;
+    border: 0.15rem solid white;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .FooterOneButton:hover{
-    background-color: #0476D0;
+    background-color: white;
+    color: #0476D0;
 }

@@ -1,14 +1,13 @@
 .FooterOne-Section {
     background-color: #0476D0;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
 }
 
-.FooterOne-Content {
+.FooterOne-Container{
     display: flex; 
     flex-direction: column;
     margin-left: 40px;
-    height: 100%;
 }
 
 .FooterOne-Logo h2 {
@@ -25,7 +24,7 @@
     margin: 20px 0;
 }
 
-.FooterTwo-Content h2 {
+.FooterOne-Content h2 {
     font-size: 2.0rem;
     font-weight: bold;
     color: white;

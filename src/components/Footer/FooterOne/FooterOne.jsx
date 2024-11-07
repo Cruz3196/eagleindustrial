@@ -5,17 +5,15 @@ import FooterOneButton from '../../Buttons/FooterOneButton';
 const FooterOne = () => {
   return (
     <section className='FooterOne-Section'>
-      <div className='FooterOne-Content'>
+      <div className='FooterOne-Container'>
         <div className='FooterOne-Logo'>
           <h2>Eagle Industrial</h2>
-        </div>
           <div id='borderline'></div>
-            <div className='FooterTwo-Content'>
-              <h2>
-                Quality and Safety, Engineered.
-              </h2>
-              <FooterOneButton/>
-            </div>
+            <h2>
+              Quality and Safety, Engineered.
+            </h2>
+            <FooterOneButton/>
+          </div>
         </div>
     </section>
   )
