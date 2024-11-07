@@ -44,17 +44,14 @@
 @media (max-width: 768px){
     .FooterOne-Section {
         background-color: #0476D0;
+        display: flex;
+        justify-content: left;
+        align-items: left;
         height: 40vh;
     }
-    
-    .FooterOne-Content {
-        margin-left: 40px;
-        height: 100%;
-    }
-    
     .FooterOne-Logo h2 {
         order: 1;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         font-weight: bold;
         color: white;
         text-decoration: none;
@@ -63,20 +60,19 @@
     
     #borderline {
         border: 0.1px solid white;
-        width: 95%;
+        width: 138%;
         margin: 20px 0;
+        margin-top: 10px;
     }
     
-    .FooterTwo-Content h2 {
-        font-size: 1.0rem;
+    .FooterOne-Content h2 {
+        font-size: 1.7rem;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
-        text-align: left;
-        font-size: 1.2rem;
         margin: 20px 0;
         margin-top: 20px;
-        display: block;
+        width: 70%;
     } 
 }
 
