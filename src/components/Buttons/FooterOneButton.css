@@ -19,11 +19,23 @@
     color: #0476D0;
 }
 
+/* responsive FooterOne settings  */
+
 @media (max-width: 768px){
     .FooterOneButton{
         display: inline-block;
         position: relative;
-        left:400px;
+        left:380px;
         bottom: 110px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .FooterOneButton{
+        display: inline-block;
+        position: relative;
+        left:260px;
+        bottom: 90px;
     }
 }

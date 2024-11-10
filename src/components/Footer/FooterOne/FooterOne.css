@@ -77,5 +77,36 @@
 }
 
 @media (max-width: 600px){
-
+    .FooterOne-Section {
+        background-color: #0476D0;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 40vh;
+    }
+    .FooterOne-Logo h2 {
+        order: 1;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    #borderline {
+        border: 0.1px solid white;
+        width: 100%;
+        margin: 20px 0;
+        margin-top: 10px;
+    }
+    
+    .FooterOne-Content h2 {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 20px 0;
+        margin-top: 20px;
+        width: 70%;
+    } 
 }
