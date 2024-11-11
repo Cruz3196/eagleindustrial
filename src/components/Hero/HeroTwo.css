@@ -1,0 +1,26 @@
+.HeroTwo-Section{
+    background-color: #0476D0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.HeroTwo-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    color: white;
+}
+
+.HeroTwo-Header{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}

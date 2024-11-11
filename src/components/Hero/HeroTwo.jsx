@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './HeroTwo.css';
 
 const HeroTwo = () => {
   return (
@@ -7,6 +8,9 @@ const HeroTwo = () => {
         <div className='HeroTwo-Header'>
           expert leadership on every project 
         </div>
+        <div id='HeroTwo-Borderline'>
+        </div>
+        
       </div>
     </section>
   )
