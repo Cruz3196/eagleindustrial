@@ -20,7 +20,13 @@
 }
 
 .HeroTwo-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -250px;
     font-weight: bold;
+    font-size: 2.0rem;
     text-transform: uppercase;
 
 }
