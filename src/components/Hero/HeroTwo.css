@@ -1,15 +1,17 @@
+/* HERO SECTION SETTING  */
 .HeroTwo-Section{
     background-color: #0476D0;
     background-attachment: fixed;
     background-size: cover;
     background-position: center bottom;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position:relative;
 }
 
+/* CONTAINER FOR HERO TWO SECTION  */
 .HeroTwo-Container{
     display: flex;
     justify-content: center;
@@ -19,6 +21,7 @@
     color: white;
 }
 
+/* HEADER FOR THE HEROTWO  */
 .HeroTwo-Header{
     display: flex;
     justify-content: center;
@@ -30,10 +33,23 @@
     text-transform: uppercase;
 }
 
+/* BORDERLINE UNDER THE HERO HEADER  */
+
 #HeroTwo-Borderline{
     position: absolute;
     border: 0.1px solid white;
     width: 40%;
     margin: 20px 0;
     margin-top: -80px;
+}
+
+/* CONTENT FOR THE HERO SECTION  */
+.HeroTwo-Content{
+    position: absolute;
+    bottom: 5px;
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+    line-height: 1.2;
 }
