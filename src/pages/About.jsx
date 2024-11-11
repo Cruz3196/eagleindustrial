@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { HeroTwo } from '../components';
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <HeroTwo/>
   )
 }
 
