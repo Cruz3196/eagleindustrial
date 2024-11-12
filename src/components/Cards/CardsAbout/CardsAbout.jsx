@@ -3,7 +3,13 @@ import './CardsAbout.css';
 
 const CardsAbout = () => {
   return (
-    <div>CardsAbout</div>
+    <section className='CardsAbout-Section'>
+        <div className='CardsAbout-Container'>
+            <div className='CardsAbout-Content'>
+                Cards About
+            </div>
+        </div>
+    </section>
   )
 }
 
