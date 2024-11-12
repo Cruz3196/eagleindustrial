@@ -6,7 +6,7 @@ const CardsAbout = () => {
     <section className='CardsAbout-Section'>
         <div className='CardsAbout-Container'>
             <div className='CardsAbout-Content'>
-                Cards About
+                Cards 
             </div>
         </div>
     </section>

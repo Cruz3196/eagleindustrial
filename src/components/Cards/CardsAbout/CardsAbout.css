@@ -1,0 +1,11 @@
+.CardsAbout-Section{
+    background-color:white ;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
