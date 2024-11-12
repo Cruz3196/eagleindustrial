@@ -13,4 +13,4 @@ const CardsAbout = () => {
   )
 }
 
-export default CardsAbout
+export default CardsAbout; 
