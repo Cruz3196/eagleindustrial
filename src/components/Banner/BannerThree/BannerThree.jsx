@@ -12,4 +12,4 @@ const BannerThree = () => {
   )
 }
 
-export default BannerThree
+export default BannerThree;
