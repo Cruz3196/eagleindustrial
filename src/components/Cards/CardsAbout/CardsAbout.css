@@ -9,3 +9,27 @@
     align-items: center;
     position:relative;
 }
+
+.CardsAbout-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.CardsAbout-Card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.CardsAbout-Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CardsAbout-Card:hover {
+    transform: scale(1.05);
+}
