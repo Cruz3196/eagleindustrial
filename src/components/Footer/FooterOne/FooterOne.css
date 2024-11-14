@@ -15,8 +15,9 @@
 
 .FooterOne-Content{
     display: flex;
-    flex-direction: column;
-    margin-left: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: relative;
 }
@@ -46,7 +47,7 @@
     text-transform: uppercase;
     margin: 10px 0;    
     margin-top:50px;
-}    
+}   
 
 /* Responsive FooterOne  */
 @media (max-width: 768px){

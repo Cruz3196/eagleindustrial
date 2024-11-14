@@ -1,12 +1,5 @@
-.FooterOneButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left:1150px;
-    bottom: 65px;
+.FooterOneButton {
     padding: 1.5rem 2rem;
-    margin-top: 20px;
     color: white;
     border: 0.15rem solid white;
     border-radius: 0.50rem;
@@ -15,10 +8,10 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 30%;
+    margin-left: auto; /* Moves the button to the right */
     max-width: 380px;
-    height: 25%;
 }
+
 .FooterOneButton:hover{
     background-color: white;
     color: #0476D0;

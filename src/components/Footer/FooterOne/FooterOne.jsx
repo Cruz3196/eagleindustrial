@@ -15,7 +15,7 @@ const FooterOne = () => {
             <h2 className='FooterOne-Ending'>
               Quality and Safety, Engineered.
             </h2>
-          <FooterOneButton/>
+            <FooterOneButton/>
         </div>
       </div>
     </section>
