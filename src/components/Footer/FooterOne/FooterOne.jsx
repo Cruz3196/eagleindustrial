@@ -6,16 +6,16 @@ const FooterOne = () => {
   return (
     <section className='FooterOne-Section'>
       <div className='FooterOne-Container'>
-        <div className='FooterOne-Logo'>
-          <h2>Eagle Industrial</h2>
-        </div>
-        <div id='borderline'>
-        </div>
         <div className='FooterOne-Content'>
-            <h2>
+          <div className='FooterOne-Logo'>
+            <h2>Eagle Industrial</h2>
+          </div>
+          <div id='borderline'>
+          </div>
+            <h2 className='FooterOne-Ending'>
               Quality and Safety, Engineered.
             </h2>
-            <FooterOneButton/>
+          <FooterOneButton/>
         </div>
       </div>
     </section>

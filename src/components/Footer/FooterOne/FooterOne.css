@@ -1,22 +1,29 @@
 .FooterOne-Section {
     background-color: #0476D0;
-    height: 50vh;
+    height: 46vh;
     width: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: left;
     overflow: hidden;
 }
 
 .FooterOne-Container{
     display: flex; 
+    justify-content: center;
     flex-direction: column;
-    margin-left: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.FooterOne-Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    width: 100%;
+    position: relative;
 }
 
 .FooterOne-Logo h2 {
     margin-top: 50px;
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -25,19 +32,20 @@
 
 #borderline {
     border: 0.1px solid white;
-    width: 80%;
+    width: 35%;
     margin: 20px 0;
     margin-top: 50px;
 }
 
-.FooterOne-Content h2 {
-    font-size: 2.0rem;
+.FooterOne-Ending{
+    display: flex;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     margin: 10px 0;    
-    margin-top:60px;
+    margin-top:50px;
 }    
 
 /* Responsive FooterOne  */
