@@ -2,18 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 2rem;
+    padding: 2.0rem 4.5rem;
     color: white;
     border: 0.07rem solid white;
     border-radius: 0.50rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: auto; /* Moves the button to the right */
-    max-width: 380px;
-    height: 20%;
     margin-right: 50px;
 }
 
