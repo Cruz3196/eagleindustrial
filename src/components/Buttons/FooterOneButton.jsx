@@ -4,7 +4,7 @@ import './FooterOneButton.css';
 const FooterOneButton = () => {
   return (
     <div className='FooterOneButton'>
-        Get a quote on your <br/>project
+        Get a quote on your project
     </div>
   )
 }
