@@ -1,0 +1,33 @@
+/* Hero Image */
+.HeroThree-Container{
+    background-image: url(/src//Assets//SafteyHero.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.HeroThree-Container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.481); /* Semi-dark gradient */
+    z-index: 1;
+}
+
+/* Hero Text */
+.HeroThree-text{
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 2;
+    top: 50px;
+}

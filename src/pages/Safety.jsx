@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { HeroThree,FooterOne } from '../components';
 
 const Safety = () => {
   return (
-    <div>Safety</div>
+    <>
+      <HeroThree/>
+      <FooterOne/>
+    </>
   )
 }
 
