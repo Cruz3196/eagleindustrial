@@ -140,6 +140,32 @@
 
 }
 
+/* NAVBAR 2 FOR SERVICES PAGE AND CONTACT PAGE  */
+
+.navbar.navbar2 .brand {
+    color: black;
+}
+
+.navbar.navbar2 li a {
+    color: black;
+}
+
+.navbar2-links li a:hover::after,
+.navbar2-links li a.active::after {
+    background-color: black;
+}
+
+
+.navbar.navbar2 #hamburger span {
+    background-color: black;
+}
+
+
+.navbar.navbar2 #hamburger.open span {
+    background-color: black;
+}
+
+
 
 /* Make nav-links hidden by default on smaller screens */
 @media (max-width: 768px) {
