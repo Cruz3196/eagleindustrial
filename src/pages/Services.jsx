@@ -1,9 +1,10 @@
 import React from 'react';
-import { FooterOne } from '../components';
+import { CardsService, FooterOne } from '../components';
 
 const Services = () => {
   return (
     <>
+    <CardsService/>
     <FooterOne/>
     </>
   )
