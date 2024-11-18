@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { FooterOne } from '../components';
 
 const Services = () => {
   return (
-    <></>
+    <>
+    <FooterOne/>
+    </>
   )
 }
 
