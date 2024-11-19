@@ -1,10 +1,11 @@
 import React from 'react';
-import { HeroThree,FooterOne } from '../components';
+import { HeroThree,ContentTwo,FooterOne } from '../components';
 
 const Safety = () => {
   return (
     <>
       <HeroThree/>
+      <ContentTwo/>
       <FooterOne/>
     </>
   )
