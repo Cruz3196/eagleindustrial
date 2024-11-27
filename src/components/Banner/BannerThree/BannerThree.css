@@ -5,8 +5,8 @@
     background-color: lightgrey;
     height: 110vh;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));    
+    clip-path: polygon(0 0, 90% 0, 90% 90%, 0 calc(90% - 20vw));
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 8vw));    
     margin-bottom: -10vw;
 }
 

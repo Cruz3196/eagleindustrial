@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0476D0;
+    background-color: #0f6bb1;
     height: 46vh;
     width: 100%;
     overflow-y: hidden;
@@ -17,7 +17,7 @@
 }
 
 .FooterOne-Logo h2 {
-    margin-top: 5px;
+    margin-top: 50px;
     font-size: 2.8rem;
     font-weight: bold;
     color: white;
@@ -29,7 +29,7 @@
     border: 0.1px solid white;
     width: 50%;
     margin: 20px 0;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .FooterOne-Ending{
@@ -40,7 +40,7 @@
     text-decoration: none;
     text-transform: uppercase;
     margin: 10px 0;    
-    margin-top:60px;
+    margin-top:30px;
 }   
 
 /* Responsive FooterOne  */
