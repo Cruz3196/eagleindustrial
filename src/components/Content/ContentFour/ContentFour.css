@@ -94,3 +94,13 @@ textarea{
     height: auto;
     border-radius: 5px;
 }
+
+/* Notification after message has been sent*/
+.notification{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: green;
+}
+.notification.error{
+    color: red;
+}
