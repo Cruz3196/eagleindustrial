@@ -10,4 +10,5 @@ export {default as BannerTwo} from './Banner/BannerTwo/BannerTwo';
 export {default as BannerThree} from './Banner/BannerThree/BannerThree';
 export {default as ContentOne} from "./Content/ContentOne/ContentOne";
 export {default as ContentTwo} from './Content/ContentTwo/ContentTwo';
+export {default as ContentThree} from './Content/ContentThree/ContentThree';
 export {default as FooterOne} from './Footer/FooterOne/FooterOne';

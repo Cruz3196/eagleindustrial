@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #0f6bb1;
+    color: white;
     height: 100vh;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
