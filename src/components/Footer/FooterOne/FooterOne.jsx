@@ -7,7 +7,7 @@ const FooterOne = () => {
   const location = useLocation();
 
   // check if the current path matches "About" or "Safety"
-  const footerTwo = location.pathname === '/About' || location.pathname === '/Safety';
+  const footerTwo = location.pathname === '/About';
 
   return (
     <section className='FooterOne-Section'

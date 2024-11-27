@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 140vh;
+    height: 160vh;
     width: 100%;
 }
 
@@ -13,6 +13,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 30px;
 }
 
 /* Header Text */
@@ -21,7 +22,7 @@
     padding: 20px;
 }
 .Safety-Header h1{
-    font-size: 3rem;
+    font-size: 3.7rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -51,11 +52,11 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .Safety-Img img{
-    max-height: 120vh;
-    max-width: 60%;
+    max-height: 130vh;
+    max-width: 90%;
     margin-top: 120px;
     object-fit: cover;
     align-items: center;
