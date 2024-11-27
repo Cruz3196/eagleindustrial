@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {ContentFour,FooterOne} from '../components';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <ContentFour/>
+      <FooterOne/>
+    </>
   )
 }
 
