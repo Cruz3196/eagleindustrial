@@ -1,11 +1,12 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import {Home, About, Services, Safety, Contact} from './pages/index';
-import {Navbar} from './components/index';
+import {Navbar, ScrollToTop} from './components/index';
 
 function App() {
   return (
     <Router>
       <Navbar/>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/About' element={<About/>}/>
