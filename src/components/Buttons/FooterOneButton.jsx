@@ -10,9 +10,9 @@ const FooterOneButton = () => {
   }
 
   return (
-    <div onClick={handleClick} className='FooterOneButton'>
+    <button onClick={handleClick} className='FooterOneButton'>
         Get a quote on your project
-    </div>
+    </button>
   )
 }
 
