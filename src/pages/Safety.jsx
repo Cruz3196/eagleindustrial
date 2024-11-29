@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroThree,ContentTwo,ContentThree,FooterOne } from '../components';
+import { HeroThree,ContentTwo,ContentThree,FooterTwo } from '../components';
 
 const Safety = () => {
 
@@ -8,7 +8,7 @@ const Safety = () => {
       <HeroThree/>
       <ContentTwo/>
       <ContentThree/>
-      <FooterOne/>
+      <FooterTwo/>
     </>
   )
 }

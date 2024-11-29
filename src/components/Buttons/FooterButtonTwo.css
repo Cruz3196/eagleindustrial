@@ -1,0 +1,45 @@
+.FooterButtonTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem 0.5rem;
+    color: white;
+    border: 0.07rem solid white;
+    background-color: none;
+    border-radius: 0.50rem;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Moves the button to the right */
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.FooterButtonTwo:hover{
+    background-color: white;
+    color: #0476D0;
+}
+
+/* responsive FooterOne settings  */
+
+@media (max-width: 768px){
+    .FooterButtonTwo{
+        display: inline-block;
+        position: relative;
+        left:380px;
+        bottom: 110px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .FooterButtonTwo{
+        display: inline-block;
+        position: relative;
+        left:260px;
+        bottom: 90px;
+    }
+}

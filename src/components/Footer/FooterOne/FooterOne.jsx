@@ -7,18 +7,18 @@ const FooterOne = () => {
   const location = useLocation();
 
   // check if the current path matches "About" or "Safety"
-  const footerTwo = location.pathname === '/About';
+  const AboutFooter = location.pathname === '/About';
 
   return (
     <section className='FooterOne-Section'
     style={{
-      height: footerTwo ? '60vh' : '46vh', // Conditional height
+      height: AboutFooter ? '60vh' : '46vh', // Conditional height
     }}
     >
       <div 
         className='FooterOne-Content'
         style={{
-          marginTop: footerTwo ? '100px' : '0px',
+          marginTop: AboutFooter ? '100px' : '0px',
         }}
       >
         <div className='FooterOne-Logo'>

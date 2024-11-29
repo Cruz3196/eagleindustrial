@@ -1,11 +1,11 @@
 import React from 'react';
-import { CardsService, FooterOne } from '../components';
+import { CardsService, FooterTwo } from '../components';
 
 const Services = () => {
   return (
     <>
     <CardsService/>
-    <FooterOne/>
+    <FooterTwo/>
     </>
   )
 }

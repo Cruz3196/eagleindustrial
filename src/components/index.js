@@ -13,4 +13,5 @@ export {default as ContentTwo} from './Content/ContentTwo/ContentTwo';
 export {default as ContentThree} from './Content/ContentThree/ContentThree';
 export {default as ContentFour} from './Content/ContentFour/ContentFour';
 export {default as FooterOne} from './Footer/FooterOne/FooterOne';
+export {default as FooterTwo} from './Footer/FooterTwo/FooterTwo';
 export {default as ScrollToTop} from './ScrollToTop/ScrollToTop';
