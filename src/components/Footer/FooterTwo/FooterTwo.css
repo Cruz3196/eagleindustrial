@@ -75,7 +75,7 @@
         text-transform: uppercase;
         margin: 20px 0;
         margin-top: 20px;
-        width: 70%;
+        width: 90%;
     } 
 }
 
@@ -89,7 +89,7 @@
     }
     .FooterTwo-Logo h2 {
         order: 1;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: bold;
         color: white;
         text-decoration: none;
@@ -98,18 +98,18 @@
     
     #borderline {
         border: 0.1px solid white;
-        width: 150%;
+        width: 138%;
         margin: 20px 0;
         margin-top: 10px;
     }
     
     .FooterTwo-Content h2 {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
         margin: 20px 0;
         margin-top: 20px;
-        width: 70%;
+        width: 90%;
     } 
 }
