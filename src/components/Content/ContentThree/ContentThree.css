@@ -163,11 +163,11 @@
 
     .Safety-Img img {
         margin-top: 0;
-        height: 60vh; 
+        height: 50vh; 
         max-width: 100%;
     }
     .Safety-Header h1{
-        font-size: 6.0rem;
+        font-size: 5.0rem;
         font-weight: bold;
         margin-bottom: 20px;
     }
