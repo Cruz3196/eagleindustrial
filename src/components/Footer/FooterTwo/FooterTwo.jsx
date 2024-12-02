@@ -7,12 +7,12 @@ const FooterTwo = () => {
   return (
     <section className='FooterTwo-Section'>
       <div  className='FooterTwo-Content'>
-        <div className='FooterTwo-Logo' data-aos='fade-up'>
+        <div className='FooterTwo-Logo'>
           <h2>Eagle Industrial</h2>
         </div>
         <div id='borderline'>
         </div>
-          <h2 className='FooterTwo-Ending' data-aos='fade-up'>
+          <h2 className='FooterTwo-Ending'>
             Quality and Safety, Engineered.
           </h2>
       </div>
