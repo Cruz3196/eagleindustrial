@@ -38,3 +38,11 @@
     display: block; /* Ensures it stays on its own line */
     margin-top: 130px; /* Optional spacing adjustment */
 }
+
+@media (max-width: 768px){
+    
+}
+
+/* @media (max-width: 600px){
+    }
+} */

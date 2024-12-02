@@ -32,3 +32,73 @@
 .BannerThree-Heading2{
     font-size: 2.0rem;
 }
+
+/* Banner Three Responsive */
+
+@media (max-width: 768px){
+    .BannerThree-Section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgrey;
+        height: 100vh;
+        width: 100%;
+    }
+    .BannerThree-Content{
+        margin-bottom: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .BannerThree-Content p{
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .BannerThree-Heading1{
+        font-size: 1.9rem;
+        max-width: 720px;
+    }
+    
+    .BannerThree-Heading2{
+        font-size: 1.9rem;
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 600px){
+    .BannerThree-Section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgrey;
+        height: 100vh;
+        width: 100%;
+    }
+    .BannerThree-Content{
+        margin-bottom: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .BannerThree-Content p{
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .BannerThree-Heading1{
+        font-size: 1.9rem;
+        max-width: 720px;
+    }
+    
+    .BannerThree-Heading2{
+        font-size: 1.9rem;
+        max-width: 720px;
+    }
+}
