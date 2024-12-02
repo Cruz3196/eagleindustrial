@@ -104,3 +104,40 @@ textarea{
 .notification.error{
     color: red;
 }
+
+/* Responsive Contact Four  */
+@media (max-width: 768px) {
+    .Contact-Section {
+        flex-direction: column; 
+        align-items: center; 
+        height: auto;
+    }
+
+    .contact-form {
+        margin-top: 20px; 
+        width: 100%;
+        order: 2; 
+    }
+
+    .contact-image {
+        margin-top: 90px;
+        order: 1; 
+    }
+}
+
+@media (max-width: 600px) {
+    .Contact-Section {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+        order: 2; 
+    }
+
+    .contact-image {
+        margin-top: 80px; 
+        order: 1; 
+    }
+}
