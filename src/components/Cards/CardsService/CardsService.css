@@ -11,7 +11,7 @@
 .CardsService-Header {
     font-size: 70px;
     font-weight: bold;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
     color: #333;
     text-align: center;
 }
@@ -70,4 +70,114 @@
     text-indent: -15px;
     list-style-type: disc; 
     list-style-position: inside;
+}
+
+/* Responsive Service Cards  */
+@media (max-width: 768px) {
+    .CardsService-Section {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Align content to the top */
+        align-items: center;
+        height: 475vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .CardsService-Header {
+        font-size: 50px; /* Adjust font size for smaller screens */
+        font-weight: bold;
+        margin: 20px 0; /* Add margin for spacing */
+        color: #333;
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .CardsService-Container {
+        display: flex;
+        flex-direction: column; /* Stack the cards */
+        align-items: center;
+        gap: 40px;
+        margin-top: 100px; /* Add spacing between header and cards */
+    }
+
+    .CardsService-Card {
+        padding: 5px; 
+        width: 90%;
+    }
+    .CardsService-Image {
+        width: 100%; 
+        height: auto; 
+        max-height: 370px; 
+        object-fit: cover; 
+        margin-bottom: 10px; 
+        border-radius: 4px; 
+    }
+
+    .CardsService-SubTitle {
+        font-size: 25px; /* Reduce font size */
+        margin: 10px 0; /* Add spacing */
+        color: #333;
+        text-align: center;
+    }
+
+    .CardsService-InfoList {
+        margin-top: 10px; /* Ensure proper spacing with the subtitle */
+    }
+}
+
+
+@media (max-width: 600px){
+    .CardsService-Section {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Align content to the top */
+        align-items: center;
+        height: 475vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .CardsService-Header {
+        font-size: 50px; /* Adjust font size for smaller screens */
+        font-weight: bold;
+        margin: 20px 0; /* Add margin for spacing */
+        color: #333;
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .CardsService-Container {
+        display: flex;
+        flex-direction: column; /* Stack the cards */
+        align-items: center;
+        gap: 40px;
+        margin-top: 100px; /* Add spacing between header and cards */
+    }
+
+    .CardsService-Card {
+        padding: 5px; 
+        width: 90%;
+    }
+    .CardsService-Image {
+        width: 100%; 
+        height: auto; 
+        max-height: 370px; 
+        object-fit: cover; 
+        margin-bottom: 10px; 
+        border-radius: 4px; 
+    }
+
+    .CardsService-SubTitle {
+        font-size: 25px; /* Reduce font size */
+        margin: 10px 0; /* Add spacing */
+        color: #333;
+        text-align: center;
+    }
+
+    .CardsService-InfoList {
+        margin-top: 10px; /* Ensure proper spacing with the subtitle */
+    }
 }
