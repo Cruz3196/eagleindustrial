@@ -5,10 +5,10 @@ const ContentOne = () => {
   return (
     <section className='ContentOne-Section'>
         <div className='ContentOne-Content'>
-            <div className='ContentOne-Header'>
+            <div className='ContentOne-Header' data-aos='fade-up'>
                 <h1>Our Commitment to Safety.</h1>
             </div>
-            <div className='ContentOne-Info'>
+            <div className='ContentOne-Info' data-aos='fade-up'>
                 <p>
                 Our work begins with our people. At Eagle Industrial, the safety of our clients and employees is our top priority and at the core of our business.
                 </p>
