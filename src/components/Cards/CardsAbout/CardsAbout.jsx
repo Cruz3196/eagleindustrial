@@ -13,7 +13,7 @@ const images = [
 const CardsAbout = () => {
   return (
     <section className='CardsAbout-Section'>
-        <div className='CardsAbout-Container'>
+        <div className='CardsAbout-Container' data-aos='fade-up'>
             {images.map((image, index) => (
               <div key={index} className='CardsAbout-Card'>
                 <img className='CardsAbout-Image' src={image.src} alt={image.alt} />

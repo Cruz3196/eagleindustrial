@@ -5,7 +5,7 @@ import './BannerThree.css';
 const BannerThree = () => {
   return (
     <section className='BannerThree-Section'>
-        <div className='BannerThree-Content'>
+        <div className='BannerThree-Content' data-aos='fade-up'>
             <p>
             We believe that every great project begins with a solid infrastructure, and our esteemed reputation is built on ours. 
             </p>

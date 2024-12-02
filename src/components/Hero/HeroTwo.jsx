@@ -4,7 +4,7 @@ import './HeroTwo.css';
 const HeroTwo = () => {
   return (
     <section className='HeroTwo-Section'>
-      <div className='HeroTwo-Container'>
+      <div className='HeroTwo-Container'  data-aos='fade-up'>
         <div className='HeroTwo-Header'>
           expert leadership on every project 
         </div>

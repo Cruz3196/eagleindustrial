@@ -5,7 +5,7 @@ import './ContentThree.css';
 const ContentThree = () => {
   return (
     <section className='Safety-Section'>
-        <div className='Safety-Content'>
+        <div className='Safety-Content' data-aos='fade-up'>
             <div className='Safety-Header'>
                 <h1>Safety Process</h1>
             </div>

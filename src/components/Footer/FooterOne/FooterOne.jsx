@@ -20,6 +20,7 @@ const FooterOne = () => {
         style={{
           marginTop: AboutFooter ? '100px' : '0px',
         }}
+        data-aos='fade-up'
       >
         <div className='FooterOne-Logo'>
           <h2>Eagle Industrial</h2>

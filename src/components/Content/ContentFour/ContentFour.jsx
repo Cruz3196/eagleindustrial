@@ -32,7 +32,7 @@ const ContentFour = () => {
     };
   return (
     <section className='Contact-Section'>
-        <div className="contact-form">
+        <div className="contact-form"  data-aos='fade-up'>
             <h1>Contact Us</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className="form-group">
@@ -62,7 +62,7 @@ const ContentFour = () => {
             </form>
             {notification && <p className="notification">{notification}</p>}
         </div>
-        <div className="contact-image">
+        <div className="contact-image"  data-aos='fade-up'>
             <img src={Crew} alt="Team-Photo" />
         </div>
     </section>

@@ -59,8 +59,8 @@ const services = [
 const CardsService = () => {
   return (
     <section className='CardsService-Section'>
-        <h2 className='CardsService-Header'>Our Services.</h2>
-        <div className='CardsService-Container'>
+        <h2 className='CardsService-Header'  data-aos='fade-up'>Our Services.</h2>
+        <div className='CardsService-Container'  data-aos='fade-up'>
             {services.map((service, index) => (
               <div key={index} className='CardsService-Card'>
                 <img className='CardsService-Image' src={service.src} alt={service.alt} />

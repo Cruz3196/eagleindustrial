@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 600px){
-    .CardsAbout-Section{
+        .CardsAbout-Section{
         background-color:white ;
         background-size: cover;
         background-position: center;

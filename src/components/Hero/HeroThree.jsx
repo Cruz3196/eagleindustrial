@@ -4,7 +4,7 @@ import './HeroThree.css';
 const HeroThree = () => {
   return (
     <div className='HeroThree-Container'>
-        <h1 className='HeroThree-text'>
+        <h1 className='HeroThree-text' data-aos='fade-up'>
           Our Core Commitment to <br/> Safety
           <br/>
           <span className='HeroThree-subtext'>

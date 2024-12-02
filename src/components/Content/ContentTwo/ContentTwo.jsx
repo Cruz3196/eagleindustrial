@@ -4,7 +4,7 @@ import './ContentTwo.css';
 const ContentTwo = () => {
   return (
     <section className='ContentTwo-Section'>
-        <div className='ContentTwo-Content'>
+        <div className='ContentTwo-Content' data-aos='fade-up'>
             <div className='ContentTwo-Header'>
                 <h1>A Better World Starts With a Better Company.</h1>
             </div>
