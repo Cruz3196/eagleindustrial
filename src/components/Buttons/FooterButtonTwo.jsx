@@ -11,7 +11,7 @@ const FooterButtonTwo = () => {
 
   return (
     <button onClick={handleClick} className='FooterButtonTwo'>
-        Get a quote on your project
+        Get a quote on your <br/> project
     </button>
   )
 }
