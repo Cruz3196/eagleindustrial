@@ -10,8 +10,8 @@ const FooterTwo = () => {
         <div className='FooterTwo-Logo'>
           <h2>Eagle Industrial</h2>
         </div>
-        <div id='borderline'>
-        </div>
+        {/* <div id='borderline'>
+        </div> */}
           <h2 className='FooterTwo-Ending'>
             Quality and Safety, Engineered.
           </h2>
