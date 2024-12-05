@@ -8,8 +8,6 @@ const HeroTwo = () => {
         <div className='HeroTwo-Header'>
           expert leadership on every project 
         </div>
-        <div id='HeroTwo-Borderline'>
-        </div>
         <div className='HeroTwo-Content'>
           <p>
             No matter the size, complexity or turnaround time of your project, we are fully equipped for any challenge.  
